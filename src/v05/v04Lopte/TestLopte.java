@@ -1,9 +1,7 @@
 package v05.v04Lopte;
 
-public class TestLopte
-{
-	public static void main(String[] args)
-	{
+public class TestLopte {
+	public static void main(String[] args) {
 		System.out.println("Broj objekata = " + Lopta.getBroj());
 
 		Lopta lopta = new Lopta(4.0, 0.0, 0.0, 0.0); // Create a sphere
@@ -20,7 +18,7 @@ public class TestLopte
 		System.out.println("zapremina za lopta = " + lopta.zapremina());
 		System.out.println("zapremina za globus = " + globus.zapremina());
 		System.out.println(
-			"zapremina za bilijarLopta8 = " + bilijarLopta8.zapremina());
+				"zapremina za bilijarLopta8 = " + bilijarLopta8.zapremina());
 		System.out.println("zapremina za neparna = " + neparna.zapremina());
 	}
 }
